@@ -4,6 +4,14 @@ public class Disciplina {
     private int id;
     private String nome;
 
+    public Disciplina(int id, String nome) {
+        this.id = id;
+        this.nome = nome;
+    }
+
+    public Disciplina() {
+    }
+    
     public int getId() {
         return id;
     }

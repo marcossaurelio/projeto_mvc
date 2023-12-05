@@ -5,6 +5,15 @@ public class Estudante {
     private String nome;
     private String curso;
 
+    public Estudante(int id, String nome, String curso) {
+        this.id = id;
+        this.nome = nome;
+        this.curso = curso;
+    }
+
+    public Estudante() {
+    }
+
     public int getId() {
         return id;
     }
